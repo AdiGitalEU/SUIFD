@@ -15,13 +15,21 @@ Step one would be to upload the Data folder to the internal SPIFFS. Use the Ardu
 
 Connections between ESP and the display:
 D0 - Touch CS
+
 D1 - Touch IRQ
+
 D3 - DC
+
 D5 - TFT SCK & Touch SCK
+
 D6 - TFT MISO & Touch MISO
+
 D7 - TFT MOSI & Touch MOSI 
+
 D8 - TFT CS
+
 Rst - Rst
+
 
 TX & RX -> PanelDUE port.
 
