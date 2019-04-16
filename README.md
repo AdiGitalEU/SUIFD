@@ -7,6 +7,9 @@ Please let me know if I violated any licenses in the few libraries I used and I'
 **Warning!**
 As it was designed for my onw purposes there are no safety measures other than in Duet firmware. Use it on your own risk. The communication does not implement checksum so it may introduce errors.
 
+YouTube video [with the printer](https://youtu.be/y1CbmgtJGtQ)
+Duet3D forum topic with [some pictures](https://forum.duet3d.com/topic/4543/fully-enclosed-with-custom-ui)
+
 The UI is based on ESP8266 and ILI9341. It communicates with Duet via serial port and connects to PanelDue. Nearly everything is hardcoded. The graphics can be replaced by your own but if you change sizes you need to adapt the coordinates in code.
 
 Before uploading I tested the code and it works with the libraries versions (listed in code). I suggest testing the display first using some examples from the library.
